@@ -26,4 +26,14 @@ d = "9"
 print(a + b)
 # print(a + c) can not be done
 # print(c + a)
-print(a + int(d))
+print(a + int(d)) #int() converts
+
+
+
+###TASK 1 Take a first name as a variable and last name, then print to the console "your name is : xyz name"
+    #Soution:
+    #print("your name is : " + input("enter your name"))
+
+fname = input("What is your first name ?")
+lname = input("What is your last name ?")
+print(f"your name is {fname} {lname}")
