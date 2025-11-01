@@ -37,3 +37,13 @@ print(a + int(d)) #int() converts
 fname = input("What is your first name ?")
 lname = input("What is your last name ?")
 print(f"your name is {fname} {lname}")
+
+#type function -> gives the data-type (class) of that variable
+x = "dont_recon"
+print(type(x))
+
+#indexing in strings (subscripting) useful in brute forcing or word list creation
+print(x[0])
+
+
+#Boolean -> true and fasle
